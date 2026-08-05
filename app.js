@@ -68,7 +68,7 @@
     const image = $("#readingImage");
     image.style.opacity = "0.35";
     window.setTimeout(() => {
-      image.src = `assets/images/${imageSources[name]}`;
+      image.src = `assets/images/${imageSources[name]}?v=20260805-hires-u14`;
       image.style.opacity = "1";
     }, 90);
   }
